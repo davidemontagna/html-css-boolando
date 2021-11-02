@@ -21,7 +21,6 @@ main{
 
 .element{
     width: 30%;
-    height: 450px;
     float: left;
     position: relative;
 }
@@ -82,12 +81,25 @@ main{
 .sconto, .tipologia{
     display: inline-block;
     padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
 }
 
 .text h6{
     font-size: 15px;
+    margin-top: 5px;
 }
 
 .text h4{
     text-transform: uppercase;
+}
+
+.prezzo-scontato{
+    color: red;
+    margin-right: 10px;
+}
+
+.prezzo{
+    text-decoration: line-through;
 }
