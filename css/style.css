@@ -5,7 +5,7 @@
 }
 
 main{
-    width: 80%;
+    width: 60%;
     margin: 10px auto;
 }
 
@@ -16,7 +16,7 @@ main{
   }
 
   .row{
-      margin-bottom: 80px;
+      margin-bottom: 50px;
   }
 
 .element{
@@ -32,7 +32,7 @@ main{
 }
 
 .center{
-    margin: 0 20px;
+    margin: 0 5%;
 }
 
 .first-image{
@@ -66,7 +66,8 @@ main{
 
 .text-img{
     position: absolute;
-    bottom: 20px;
+    bottom: 75px;
+    left: 0;
 }
 
 .sconto{
@@ -81,9 +82,8 @@ main{
 .sconto, .tipologia{
     display: inline-block;
     padding: 5px;
-    position: absolute;
-    left: 0;
-    bottom: 50px;
+    color: white;
+    
 }
 
 .text h6{
