@@ -4,34 +4,90 @@
     margin: 0;
 }
 
-body{
-    margin: auto;
+main{
     width: 80%;
-    padding: 20px;
+    margin: 10px auto;
 }
 
-.container{
-    width: 100%;  
-    height: 1000px;  
-}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-.element img, .middle-element{
+  .row{
+      margin-bottom: 80px;
+  }
+
+.element{
+    width: 30%;
+    height: 500px;
     float: left;
+    position: relative;
 }
 
 .element img{
-    width: 30%;
-}
-
-.middle-element img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.middle-element{
+.center{
+    margin: 0 20px;
+}
+
+.first-image{
+    display: block;
+}
+
+.second-image{
+    display: none;
+}
+
+.element:hover .second-image{
+    display: block;
+}
+
+.element:hover .first-image{
+    display: none;
+}
+
+.heart{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+}
+
+.text-img{
+    position: absolute;
+    bottom: 20px;
+}
+
+.sconto{
+    background-color: #f14f75;
+    position: relative;
+}
+
+.tipologia{
+    background-color: #00875a;
+}
+
+.sconto, .tipologia{
     display: inline-block;
-    width: 30%;
-    margin: 0 50px;
+    padding: 5px;
 }
 
+.text h6{
+    font-size: 15px;
+}
 
-
+.text h4{
+    text-transform: uppercase;
+}
